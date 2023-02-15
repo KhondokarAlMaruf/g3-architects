@@ -7,6 +7,14 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+/*---- heading-container style---- */
+.heading-container {
+    /* width: 1920px; */
+    width: 1340px;
+    height: 1200px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
 /* -------nav bar style------- */
 
 .nav-bar {
@@ -29,4 +37,43 @@ body {
     color: #424242;
     display: flex;
     gap: 50px;
+}
+
+/*------- heading style------- */
+
+.heading {
+    text-align: center;
+}
+
+.heading-title {
+    font-weight: 700;
+    font-size: 64px;
+
+}
+
+.heading-details {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+
+}
+
+.explore-btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.banner {
+    width: 1140px;
+    height: 600px;
+    border-radius: 8px;
+
 }
