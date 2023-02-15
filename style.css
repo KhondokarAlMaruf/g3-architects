@@ -117,8 +117,64 @@ body {
 
 .feature-details {
     padding-top: 0px;
-
     margin-right: 100px;
+}
 
+/* -------love and enjoy style */
+.love-enjoy-container {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
 
+}
+
+.love-left-container {
+    padding-right: 54px;
+    height: 850px;
+}
+
+.love-enjoy-description {
+    width: 500px;
+}
+
+#love-heading {
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+
+.love-paragraph-heading {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.love-details {
+    width: 500px;
+    padding: 2px 5px 2px 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.love-enjoy-container img {
+    width: 662px;
+    height: 900px;
+}
+
+.experience-btn {
+    width: 250px;
+    height: 150px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+    border: none;
+}
+
+#experience {
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-top: 0;
 }
