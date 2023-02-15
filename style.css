@@ -1,0 +1,32 @@
+/* ------fonts-----------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:ital,wght@0,400;0,700;1,500&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* -------nav bar style------- */
+
+.nav-bar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.g3 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav-item {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    display: flex;
+    gap: 50px;
+}
