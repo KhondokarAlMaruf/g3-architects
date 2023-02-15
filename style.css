@@ -120,6 +120,11 @@ body {
     margin-right: 100px;
 }
 
+/* ----facts----- */
+.facts {
+    margin-left: 60px;
+}
+
 /* -------love and enjoy style */
 .love-enjoy-container {
     display: flex;
@@ -177,4 +182,33 @@ body {
     font-size: 25px;
     color: #FFFFFF;
     padding-top: 0;
+}
+
+/* four box style */
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-item {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 169px;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box-item h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 5px 0 0 0;
+}
+
+.box-item p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: 10px;
 }
