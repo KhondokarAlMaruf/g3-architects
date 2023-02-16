@@ -301,9 +301,7 @@ footer {
     margin-bottom: 100px;
 }
 
-.hide {
-    display: none;
-}
+
 
 /* ------------------
        Media Querys
@@ -312,9 +310,5 @@ footer {
 /* Mobile Device */
 
 @media only screen and (max-width:576px) {
-    .feature-container {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
+    .feature-container {}
 }
