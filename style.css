@@ -225,7 +225,37 @@ body {
     display: flex;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 100px;
     justify-content: space-between;
+}
+
+/* -----what we do style---- */
+#what-do-heading {
+    text-align: center;
+}
+
+.what-we-do {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.brain-heading {
+
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.left-brain {
+    text-align: right;
+    border-right: 5px solid #FF900E;
+    padding-right: 10px;
+}
+
+.right-brain {
+    text-align: left;
+    padding-left: 10px;
 }
 
 /* -----footer----- */
