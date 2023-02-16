@@ -215,6 +215,7 @@ body {
     animation-play-state: running;
     border: 3px solid red;
     border-radius: 10px;
+
 }
 
 
@@ -298,4 +299,22 @@ footer {
     margin-right: 70px;
     margin-left: 70px;
     margin-bottom: 100px;
+}
+
+.hide {
+    display: none;
+}
+
+/* ------------------
+       Media Querys
+    -----------------  */
+
+/* Mobile Device */
+
+@media only screen and (max-width:576px) {
+    .feature-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
