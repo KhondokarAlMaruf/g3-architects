@@ -199,7 +199,21 @@ body {
     height: 150px;
     text-align: center;
     padding: 10px;
+    transition: transform 2s;
 }
+
+
+
+.box-item:hover {
+    transform: rotate(360deg);
+    animation-play-state: running;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+
+
+
 
 .box-item h2 {
     font-weight: 600;
@@ -212,7 +226,14 @@ body {
     font-size: 20px;
     color: #727272;
     margin-top: 10px;
+
 }
+
+
+
+
+
+
 
 /* ------ Our Sponsors style--- -- */
 .sponsors {
