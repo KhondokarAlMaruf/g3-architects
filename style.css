@@ -134,6 +134,12 @@ body {
 
 }
 
+.love-enjoy-container button {
+
+    transform: translate(-15%, -70%);
+
+}
+
 .love-left-container {
     padding-right: 54px;
     height: 850px;
